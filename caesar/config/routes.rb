@@ -1,3 +1,13 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  post '/get_access_token', to 'banking#get_access_token'
+  get '/transactions', to 'banking#transactions'
+  get '/auth', to 'banking#auth'
+  get '/identity', to 'banking#identity'
+  get '/balance', to 'banking#balance'
+  get '/accounts', to 'banking#accounts'
+  get '/item', to 'banking#item'
+  get '/assets', to 'banking#assets'
+  get '/holdings', to 'banking#holdings'
+  get '/investment_transactions', to 'banking#investment_transactions'
+  post '/set_access_token', to 'banking#set_access_token'
 end

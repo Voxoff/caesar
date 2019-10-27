@@ -4,7 +4,7 @@ https://auth.truelayer.com/?response_type=code&client_id=guybennettjones-89ace7&
 STACK/TECH
 Postman
   brew cask install postman
-TrueLayer
-Rails 
+Plaid
+Rails
 Heroku
-  
+
